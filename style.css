@@ -1,0 +1,81 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Red Rose", cursive;
+ 
+}
+
+body{
+  background: url("./assets/pexels-maxyne-barcel.png")  no-repeat; 
+  background-size: 100%;
+  filter:grayscale(100%);
+}
+
+.container{
+  margin:50px 75px;
+}
+/* ------------------------------ */
+/* ---------- NAVBAR ------------ */
+/* ------------------------------ */
+.navbar{
+  display: flex;
+  flex-direction: row;
+}
+li.list-item{
+  color:#f7bc34;
+  display: inline-block;
+}
+li:first-of-type{
+  margin-left: 200px;
+  margin-top:1%;
+}
+li:nth-child(n+1){
+  margin-right:100px;
+}
+.button-small{
+  position:absolute;
+  margin-left:10%;
+  margin-top:0%;
+  padding:10px 35px 10px 35px;
+  color:white;
+  background-color:#ff505f;
+  
+}
+
+/* ------------------------------ */
+/* ---------- HERO ------------ */
+/* ------------------------------ */
+.hero-heading{
+  position:absolute;
+  font-size: 90px;
+  color:#ffc233;
+  margin-top:7%;
+  margin-left:10%;
+  line-height:1.0em;
+  
+}
+.button-large{
+  margin-left: 50%;
+  padding:15px 35px 15px 35px;
+  color:white;
+  background-color:#ff505f;
+  margin-top: 40%;
+  
+}
+
+[alt="bottom-logo"]{
+  position:absolute;
+  margin-left: 78%;
+  margin-top:01%;
+  width:170px
+}
+.hero-heading .serves{
+  display:block;
+  margin-left: 100px;
+}
+.hero-heading .delicious{
+  display:block;
+  margin-left: 40px;
+}
+
